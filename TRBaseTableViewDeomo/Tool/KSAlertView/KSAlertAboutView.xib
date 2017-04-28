@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="KSAlertAboutView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dbj_yykf" translatesAutoresizingMaskIntoConstraints="NO" id="QfP-yQ-FvC">
+                    <rect key="frame" x="10" y="193" width="300" height="182"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cg_yykf" translatesAutoresizingMaskIntoConstraints="NO" id="e6v-uJ-6e4">
+                    <rect key="frame" x="137.5" y="218" width="44" height="44"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9La-tX-R4L">
+                    <rect key="frame" x="35" y="317" width="115" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="32" id="1gh-K8-8Sl"/>
+                        <constraint firstAttribute="width" constant="115" id="ITm-X2-ajv"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="继续选房" backgroundImage="wx_yykf">
+                        <color key="titleColor" red="0.074509803920000006" green="0.23921568630000001" blue="0.40784313729999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="buttons:" destination="iN0-l3-epB" eventType="touchUpInside" id="kDM-E3-eZe"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NXK-1v-UEp">
+                    <rect key="frame" x="170" y="317" width="115" height="32"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="115" id="Xxl-9P-utu"/>
+                        <constraint firstAttribute="height" constant="32" id="sT2-L3-KdB"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <state key="normal" title="预约看房时间" backgroundImage="xz_yykf"/>
+                    <connections>
+                        <action selector="buttons:" destination="iN0-l3-epB" eventType="touchUpInside" id="l55-uV-tpS"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="成功加入待看清单" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eHL-NM-OZD">
+                    <rect key="frame" x="99" y="274" width="122.5" height="18"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                    <color key="textColor" red="0.074509803920000006" green="0.23921568630000001" blue="0.40784313729999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="QfP-yQ-FvC" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="51R-98-sbN"/>
+                <constraint firstItem="e6v-uJ-6e4" firstAttribute="top" secondItem="QfP-yQ-FvC" secondAttribute="top" constant="25" id="9kh-ee-sfb"/>
+                <constraint firstItem="9La-tX-R4L" firstAttribute="leading" secondItem="QfP-yQ-FvC" secondAttribute="leading" constant="25" id="UFp-sD-yfv"/>
+                <constraint firstItem="9La-tX-R4L" firstAttribute="bottom" secondItem="QfP-yQ-FvC" secondAttribute="bottom" constant="-26" id="UZz-ou-t5V"/>
+                <constraint firstItem="eHL-NM-OZD" firstAttribute="top" secondItem="e6v-uJ-6e4" secondAttribute="bottom" constant="12" id="a8q-3h-nHH"/>
+                <constraint firstItem="eHL-NM-OZD" firstAttribute="centerX" secondItem="e6v-uJ-6e4" secondAttribute="centerX" id="aL5-ZH-sFd"/>
+                <constraint firstItem="NXK-1v-UEp" firstAttribute="trailing" secondItem="QfP-yQ-FvC" secondAttribute="trailing" constant="-25" id="oZF-Kg-le3"/>
+                <constraint firstItem="e6v-uJ-6e4" firstAttribute="centerX" secondItem="QfP-yQ-FvC" secondAttribute="centerX" id="qQF-ca-abm"/>
+                <constraint firstItem="QfP-yQ-FvC" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="s2p-C5-ZTv"/>
+                <constraint firstItem="NXK-1v-UEp" firstAttribute="bottom" secondItem="9La-tX-R4L" secondAttribute="bottom" id="sOa-X5-CUE"/>
+            </constraints>
+            <connections>
+                <outlet property="canBtn" destination="9La-tX-R4L" id="zcB-UZ-Yiq"/>
+                <outlet property="determine" destination="NXK-1v-UEp" id="15C-3A-ENe"/>
+                <outlet property="iocImageView" destination="e6v-uJ-6e4" id="3Wg-FI-f2E"/>
+                <outlet property="messageLabel" destination="eHL-NM-OZD" id="nkG-6J-Mbv"/>
+            </connections>
+            <point key="canvasLocation" x="-49" y="-44"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="cg_yykf" width="44" height="44"/>
+        <image name="dbj_yykf" width="300" height="182"/>
+        <image name="wx_yykf" width="115" height="32"/>
+        <image name="xz_yykf" width="115" height="32"/>
+    </resources>
+</document>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="TowSerarchView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="82"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="职业顾问姓名" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lxP-PF-VoB">
+                    <rect key="frame" x="8" y="8" width="359" height="29"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="29" id="PjG-5I-c9W"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <outlet property="delegate" destination="iN0-l3-epB" id="6lM-NO-oF4"/>
+                    </connections>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="按门店搜索" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8gT-XC-79N">
+                    <rect key="frame" x="8" y="45" width="359" height="29"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="29" id="93R-3x-Pbe"/>
+                    </constraints>
+                    <nil key="textColor"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wz_zygw" translatesAutoresizingMaskIntoConstraints="NO" id="bd3-bC-0ku">
+                    <rect key="frame" x="17.5" y="54.5" width="10" height="10"/>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ss_zygw" translatesAutoresizingMaskIntoConstraints="NO" id="n1p-5d-JRr">
+                    <rect key="frame" x="16" y="16" width="13" height="13"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="0.89411764709999997" green="0.94509803920000002" blue="0.98823529409999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="bd3-bC-0ku" firstAttribute="centerX" secondItem="n1p-5d-JRr" secondAttribute="centerX" id="0JD-Wf-vS3"/>
+                <constraint firstItem="8gT-XC-79N" firstAttribute="top" secondItem="lxP-PF-VoB" secondAttribute="bottom" constant="8" id="4B0-9o-kbP"/>
+                <constraint firstItem="bd3-bC-0ku" firstAttribute="centerY" secondItem="8gT-XC-79N" secondAttribute="centerY" id="Anh-pZ-Jto"/>
+                <constraint firstItem="lxP-PF-VoB" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="KIP-vR-YhA"/>
+                <constraint firstItem="lxP-PF-VoB" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="SAv-q8-Xuh"/>
+                <constraint firstAttribute="trailing" secondItem="lxP-PF-VoB" secondAttribute="trailing" constant="8" id="cg4-By-0kQ"/>
+                <constraint firstItem="n1p-5d-JRr" firstAttribute="centerY" secondItem="lxP-PF-VoB" secondAttribute="centerY" id="fsH-iJ-pvz"/>
+                <constraint firstItem="8gT-XC-79N" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="uIa-B8-iuo"/>
+                <constraint firstAttribute="trailing" secondItem="8gT-XC-79N" secondAttribute="trailing" constant="8" id="xPp-vJ-tPK"/>
+                <constraint firstItem="n1p-5d-JRr" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="16" id="yLr-t7-Zem"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="firstField" destination="lxP-PF-VoB" id="HWY-9g-5Cd"/>
+                <outlet property="secondField" destination="8gT-XC-79N" id="oKT-rE-ENb"/>
+            </connections>
+            <point key="canvasLocation" x="32.5" y="-192"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ss_zygw" width="13" height="13"/>
+        <image name="wz_zygw" width="10" height="10"/>
+    </resources>
+</document>

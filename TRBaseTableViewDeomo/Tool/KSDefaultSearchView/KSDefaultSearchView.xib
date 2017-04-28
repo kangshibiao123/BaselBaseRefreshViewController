@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="KSDefaultSearchView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="TJX-GJ-CzG">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                    <textInputTraits key="textInputTraits"/>
+                    <connections>
+                        <outlet property="delegate" destination="iN0-l3-epB" id="3QA-6N-XRc"/>
+                    </connections>
+                </searchBar>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="TJX-GJ-CzG" secondAttribute="trailing" id="PMm-oh-D1T"/>
+                <constraint firstItem="TJX-GJ-CzG" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="VJl-FJ-TOn"/>
+                <constraint firstItem="TJX-GJ-CzG" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="dMj-zc-5gO"/>
+                <constraint firstAttribute="bottom" secondItem="TJX-GJ-CzG" secondAttribute="bottom" id="i7F-cV-zJy"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="serachBar" destination="TJX-GJ-CzG" id="mGB-8Y-Aqp"/>
+            </connections>
+            <point key="canvasLocation" x="32.5" y="-225"/>
+        </view>
+    </objects>
+</document>

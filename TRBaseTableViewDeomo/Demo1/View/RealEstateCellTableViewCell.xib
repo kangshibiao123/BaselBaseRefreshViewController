@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="RealEstateCellTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="126"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="125"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="tx_zygw" translatesAutoresizingMaskIntoConstraints="NO" id="5Ra-Bu-EFc">
+                        <rect key="frame" x="16" y="16" width="93" height="93"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="93" id="ZWX-eA-JKJ"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mz_zygw" translatesAutoresizingMaskIntoConstraints="NO" id="1pk-Wj-boT">
+                        <rect key="frame" x="119" y="26" width="12" height="12"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="罗雪芳" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gka-SJ-obO">
+                        <rect key="frame" x="139" y="23.5" width="43" height="17"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                        <color key="textColor" red="0.12156862745098039" green="0.54509803921568623" blue="0.79607843137254897" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dh_zygw" translatesAutoresizingMaskIntoConstraints="NO" id="ScI-jB-ooN">
+                        <rect key="frame" x="122" y="46" width="6" height="11"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wz_zygw" translatesAutoresizingMaskIntoConstraints="NO" id="tSH-xE-2NV">
+                        <rect key="frame" x="120" y="84" width="10" height="10"/>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="dp_zygw" translatesAutoresizingMaskIntoConstraints="NO" id="f6H-54-Uaf">
+                        <rect key="frame" x="120" y="65" width="10" height="11"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="13486171969" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U7h-Ys-cc4">
+                        <rect key="frame" x="139" y="45" width="77.5" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.12156862745098039" green="0.54509803921568623" blue="0.79607843137254897" alpha="0.72457005033557054" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="运河产业园起家店" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eBV-Fe-Jcp">
+                        <rect key="frame" x="139" y="64" width="98.5" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.12156862745098039" green="0.54509803921568623" blue="0.79607843137254897" alpha="0.72457005033557054" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5km 温州市经济开发区" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ubl-uB-gll">
+                        <rect key="frame" x="139" y="82.5" width="126" height="14.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <color key="textColor" red="0.12156862745098039" green="0.54509803921568623" blue="0.79607843137254897" alpha="0.72457005033557054" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4.9" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bo6-rD-UHe">
+                        <rect key="frame" x="337" y="25" width="20" height="14"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="12"/>
+                        <color key="textColor" red="0.1215686275" green="0.5450980392" blue="0.79607843140000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pf_zygw" translatesAutoresizingMaskIntoConstraints="NO" id="tXa-mW-Pgc">
+                        <rect key="frame" x="321" y="27" width="12" height="11"/>
+                    </imageView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="U7h-Ys-cc4" firstAttribute="centerY" secondItem="ScI-jB-ooN" secondAttribute="centerY" id="0Ei-Fs-4oX"/>
+                    <constraint firstItem="Gka-SJ-obO" firstAttribute="centerY" secondItem="1pk-Wj-boT" secondAttribute="centerY" id="5S6-n3-12X"/>
+                    <constraint firstItem="f6H-54-Uaf" firstAttribute="top" secondItem="ScI-jB-ooN" secondAttribute="bottom" constant="8" id="A8t-cu-d8f"/>
+                    <constraint firstItem="f6H-54-Uaf" firstAttribute="centerX" secondItem="ScI-jB-ooN" secondAttribute="centerX" id="ELv-67-7J6"/>
+                    <constraint firstItem="tSH-xE-2NV" firstAttribute="top" secondItem="f6H-54-Uaf" secondAttribute="bottom" constant="8" id="FZE-9g-XyJ"/>
+                    <constraint firstItem="bo6-rD-UHe" firstAttribute="leading" secondItem="tXa-mW-Pgc" secondAttribute="trailing" constant="4" id="Fns-xg-H13"/>
+                    <constraint firstItem="ScI-jB-ooN" firstAttribute="centerX" secondItem="1pk-Wj-boT" secondAttribute="centerX" id="KmN-i1-A31"/>
+                    <constraint firstItem="tSH-xE-2NV" firstAttribute="centerX" secondItem="f6H-54-Uaf" secondAttribute="centerX" id="LND-jQ-YdA"/>
+                    <constraint firstItem="U7h-Ys-cc4" firstAttribute="leading" secondItem="Gka-SJ-obO" secondAttribute="leading" id="NGK-7U-uPf"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="bo6-rD-UHe" secondAttribute="trailing" constant="10" id="OJJ-eo-x8H"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="5Ra-Bu-EFc" secondAttribute="bottom" constant="8.5" id="SXk-rb-ouc"/>
+                    <constraint firstItem="eBV-Fe-Jcp" firstAttribute="centerY" secondItem="f6H-54-Uaf" secondAttribute="centerY" id="Wfg-20-WiC"/>
+                    <constraint firstItem="ubl-uB-gll" firstAttribute="centerY" secondItem="tSH-xE-2NV" secondAttribute="centerY" id="YQt-Sk-ww9"/>
+                    <constraint firstItem="ScI-jB-ooN" firstAttribute="top" secondItem="1pk-Wj-boT" secondAttribute="bottom" constant="8" id="auw-yY-HjM"/>
+                    <constraint firstItem="1pk-Wj-boT" firstAttribute="top" secondItem="5Ra-Bu-EFc" secondAttribute="top" constant="10" id="bTt-vg-V3a"/>
+                    <constraint firstItem="Gka-SJ-obO" firstAttribute="leading" secondItem="1pk-Wj-boT" secondAttribute="trailing" constant="8" id="cXi-0h-IkO"/>
+                    <constraint firstItem="1pk-Wj-boT" firstAttribute="leading" secondItem="5Ra-Bu-EFc" secondAttribute="trailing" constant="10" id="d3B-Jb-pDt"/>
+                    <constraint firstItem="bo6-rD-UHe" firstAttribute="centerY" secondItem="Gka-SJ-obO" secondAttribute="centerY" id="eoI-S2-1RJ"/>
+                    <constraint firstItem="eBV-Fe-Jcp" firstAttribute="leading" secondItem="U7h-Ys-cc4" secondAttribute="leading" id="lMA-OA-vFB"/>
+                    <constraint firstItem="5Ra-Bu-EFc" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="8" id="wBz-rM-jee"/>
+                    <constraint firstItem="tXa-mW-Pgc" firstAttribute="centerY" secondItem="bo6-rD-UHe" secondAttribute="centerY" id="xdi-kw-Plw"/>
+                    <constraint firstItem="5Ra-Bu-EFc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="8" id="zIC-jX-xna"/>
+                    <constraint firstItem="ubl-uB-gll" firstAttribute="leading" secondItem="eBV-Fe-Jcp" secondAttribute="leading" id="zte-LU-LOc"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="distanceArea" destination="ubl-uB-gll" id="UUA-eJ-1G5"/>
+                <outlet property="headerImageView" destination="5Ra-Bu-EFc" id="fsi-L2-nqL"/>
+                <outlet property="name" destination="Gka-SJ-obO" id="YBI-Ug-euU"/>
+                <outlet property="phone" destination="U7h-Ys-cc4" id="Dm3-J5-ybl"/>
+                <outlet property="starLevel" destination="bo6-rD-UHe" id="N6v-FS-w4H"/>
+                <outlet property="storeAddress" destination="eBV-Fe-Jcp" id="08U-Ni-oIJ"/>
+            </connections>
+            <point key="canvasLocation" x="32.5" y="101"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="dh_zygw" width="6" height="11"/>
+        <image name="dp_zygw" width="10" height="11"/>
+        <image name="mz_zygw" width="12" height="12"/>
+        <image name="pf_zygw" width="12" height="11"/>
+        <image name="tx_zygw" width="93" height="93"/>
+        <image name="wz_zygw" width="10" height="10"/>
+    </resources>
+</document>
